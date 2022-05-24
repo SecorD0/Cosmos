@@ -197,12 +197,12 @@ state_sync() {
 "s%^trust_hash *=.*%trust_hash = \"$trust_hash\"%" "${node_dir}/config/config.toml"
 	sudo systemctl restart "$service_file"
 	printf_n "
-The node was ${C_LGn}started${RES}!
+ The node was ${C_LGn}started${RES}!
 
-Command to view the node log:
+ Command to view the node log:
 ${C_LGn}sudo journalctl -fn 100 -u ${service_file}${RES}
 
-After success launching remember to restore config.toml by command:
+ After success launching remember to restore config.toml by command:
 ${C_LGn}mv ${node_dir}/config/config.toml.bak ${node_dir}/config/config.toml${RES}
 "
 }
