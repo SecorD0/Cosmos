@@ -69,7 +69,6 @@ while test $# -gt 0; do
 		;;
 	-d*|--daemon*)
 		if ! grep -q "=" <<< "$1"; then shift; fi
-		echo "$1"
 		daemon=`option_value "$1"`
 		shift
 		;;
