@@ -58,13 +58,13 @@ https://t.me/letskynode — node Community
 . <(wget -qO- https://raw.githubusercontent.com/SecorD0/Cosmos/main/State_Sync/state_sync.sh) \
 -mb 94.250.203.6 \
 -rp 26697 \
--a 3000 \
 -d umeed \
 -nd .umee/
 
 . <(wget -qO- https://raw.githubusercontent.com/SecorD0/Cosmos/main/State_Sync/state_sync.sh) \
 -mb 194.163.141.20 \
 -sb 51.91.208.59 \
+-a 3000 \
 -d defundd \
 -nd $HOME/.defund
 ```
