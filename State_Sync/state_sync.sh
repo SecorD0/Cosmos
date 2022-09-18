@@ -38,7 +38,7 @@ while test $# -gt 0; do
 		echo -e "${C_LGn}Useful URLs${RES}:"
 		echo -e "https://github.com/SecorD0/Cosmos/blob/main/State_Sync/state_sync.sh — script URL"
 		echo -e "         (you can add a new or delete irrelevant snapshot node via PR)"
-		echo -e "https://t.me/letskynode — node Community"
+		echo -e "https://t.me/OnePackage — noderun and tech community"
 		echo
 		return 0 2>/dev/null; exit 0
 		;;
